@@ -147,7 +147,7 @@ for session_id, row in functional_connectivity_sessions.iterrows():
 
             sns.lineplot(x='sig_fraction', y='MI', hue='feature', ci=None,
                          style='feature', markers=True, dashes=False)
-            plt.title('Probe' + probe.description)
+            plt.title('For Probe' + probe.description)
 
 
 
